@@ -1,0 +1,42 @@
+/* // Navigation Styles here
+.container {
+  header {
+    nav .dropdown {
+      .header(flex-end);
+
+      a {
+        .anchor(@font-size, none, @white, 3.2rem, 2rem);
+      }
+
+      .subMenu {
+        display: none;
+      }
+
+    }
+  }
+
+}
+
+footer {
+  text-align      : center;
+  background-color: @shark;
+
+  nav{
+    font-size      : 2rem;
+    text-decoration: none;
+    margin         : 5rem;
+
+    a {
+      color          : @white;
+      margin-right   : 4rem;
+      text-decoration: none;
+    }
+  }
+
+  .phone {
+    a {
+      .footerAnchor(13rem, 13rem, @white, 2rem);
+
+    }
+  }
+} */

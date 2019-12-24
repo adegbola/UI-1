@@ -1,0 +1,46 @@
+.container header {
+  background-image: url("https: //shouttag.com/api/image/243d8c9c2e797/1552588632");
+  min-height: 50rem;
+}
+.container header .community-spirit {
+  /*  .community();  */
+  margin-top: 5rem;
+}
+.container header .community-spirit p {
+  /*  .h1(5rem); */
+}
+.container header .community-spirit h1 {
+  /*   .h1(5rem); */
+}
+.container header .community-spirit .groupFitness {
+  /*   .button(); */
+}
+.container .anywhere-fitness {
+  /* .community(); */
+  /*  h1 {
+      .h1();
+    }
+
+    h2 {
+      .h2();
+    } */
+}
+.container .middle-section {
+  /*  .middleSection(center, 30rem); */
+}
+.container .middle-section .af-team {
+  margin-right: 7rem;
+  justify-content: center;
+  cursor: pointer;
+  /* color: @blue-color; */
+}
+.container .middle-section .af-team .team {
+  color: #8f4a4a;
+}
+.container .middle-section .af-team h1 {
+  font-size: 9rem;
+  text-align: center;
+  font-weight: 700;
+  width: 300px;
+  line-height: 10rem;
+}

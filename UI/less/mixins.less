@@ -1,0 +1,90 @@
+// Mixins in here
+
+.anchor(@margin-right, @text-decoration, @color, @marginTop, @marginBottom) {
+    margin-right   : @margin-right;
+    text-decoration: @text-decoration;
+    color          : @color;
+    margin-top     : @marginTop;
+    margin-bottom  : @marginBottom;
+    font-weight: 600;
+}
+
+.footerAnchor(@marginTop, @marginBottom, @color, @fontSize) {
+    margin-top   : @marginTop;
+    margin-bottom: @marginBottom;
+    color        : @color;
+    font-size    : @fontSize;
+}
+
+
+.button() {
+    border-radius   : 300px;
+    font-weight     : 700;
+    font-size       : 2rem;
+    background-color: @white;
+    color           : #3f77a2;
+    padding         : 1.2rem;
+    text-transform  : uppercase;
+    margin-right    : 1.2rem;
+    margin-top      : 3rem;
+    border          : none;
+    cursor          : pointer;
+}
+
+.community() {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.header(@flexend) {
+    display        : flex;
+    justify-content: @flexend;
+    font-size      : @font-size;
+}
+
+.h1(@p) {
+    font-weight: 500;
+    font-size: @p;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    line-height: .9em;
+}
+
+.h1() {
+    font-weight: @font-weight;
+    color      : @blue-color;
+}
+
+.h1(@font-size) {
+    font-size  : @font-size;
+    font-weight: @font-weight;
+    color      : #D7CF6E;
+    letter-spacing: 0.0588235rem;
+    line-height: 0.5em;
+
+}
+
+.h2() {
+    margin-top    : @margin-top;
+    color         : #4a4a4a;
+    font-weight   : 400;
+    text-transform: uppercase;
+}
+
+.middleSection(@center, @fontSize) {
+    display        : flex;
+    justify-content: @center;
+    font-size      : @fontSize;
+    margin-top     : @margin-top;
+}
+
+.mobile(@direction, @items) {
+    display       : flex;
+    flex-direction: @direction;
+    align-items   : @items;
+
+}
+
+.marginBottom(@marginBottom) {
+    margin-bottom: @marginBottom;
+}
